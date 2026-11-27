@@ -1,0 +1,9 @@
+# Nodoku style guide, section 9: PEP 8 at 79 characters, Google-style
+# docstrings. Tests skip the docstring rules and may run long.
+# plugins: flake8-docstrings (D), flake8-bugbear (B), pep8-naming (N)
+[flake8]
+max-line-length = 79
+docstring-convention = google
+exclude = .git,__pycache__,.pytest_cache,cache,venv,.venv
+per-file-ignores =
+    tests/test_*.py: D,E501

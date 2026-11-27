@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+screenshots/
+static/core_fixture.json
+.env
+cache/
